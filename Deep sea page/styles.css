@@ -1,0 +1,270 @@
+       body, html { 
+          height: 100%;
+          width:100%		  
+          margin: 0; 
+          }
+		  
+		  
+.nav {
+    padding: 25px 0px;
+    position: relative;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    z-index: 1;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.nav ul {
+    list-style: none;
+    float: right;
+    margin-right: 150px;
+}
+
+.nav ul li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.lists a {
+    display: block;
+    padding: 10px 10px;
+    text-decoration: none;
+    color: #008B8B;
+    font-size: 18px;
+    border-radius: 10%;
+    transition: text-shadow 0.3s, color 0.3s;
+    position: relative;
+}
+
+.last1 {
+    margin-right: 30px;
+}
+
+.last1 a {
+    display: block;
+    padding: 10px 10px;
+    text-decoration: none;
+    background-color: #008B8B;
+    color: white;
+    font-size: 18px;
+    border-radius: 10%;
+    position: relative;
+}
+
+.lists a:hover {
+    text-shadow: 2px 2px 2px #87CEFA;
+    color: #191970;
+}
+
+.logo img {
+    margin-top: 25px; 
+	margin-left: 150px;
+}
+		  
+	
+		  .bgTop{ 
+          width: 100%; 
+          height: 60%;
+          background-image: linear-gradient(to bottom, rgb( 164 225 249
+           / 100%), rgb( 225 233 198 / 100%) ); 
+        } 
+		
+		.web{
+			margin-top: -149.5px;
+		}
+             
+         .bgBottom{ 
+          width: 100%; 
+          height: auto; 
+          background-image: linear-gradient(to bottom, rgb(9, 76, 153), rgb(0 50 109 / 100%)
+		  ,rgb(0 0 0 / 100%) ,rgb(0 0 0 / 100%) ,rgb(0 0 0 / 100%)  ,rgb(0 0 0 / 100%) ,rgb(0 0 0 / 100%) ,rgb(0 0 0 / 100%) ,rgb(0 0 0 / 100%) ,rgb(0 0 0 / 100%) ,rgb(0 0 0 / 100%) ,rgb(0 0 0 / 100%) ,rgb(0 0 0 / 100%) ,rgb(0 0 0 / 100%) ,rgb(0 0 0 / 100%)   ); 
+        }
+		
+		.wave {
+          width: 100%;
+          height: 2px;
+          background-color: #ffffff;
+		}
+		
+		.web{
+		   margin-left: 15px;
+           font-size: 35px;
+		   font-family: cursive;
+           color: #2C2C54;
+		}
+		
+		.title{
+		    font-family: Roboto sans-serif;
+			text-align : center ;
+            color: #2c2c54;
+            font-size: 76px;
+            font-weight: 700;
+			margin-top: 150px;
+			padding-top:100px;			
+			
+
+			
+		}
+		.sub{
+		    color: #4d4d80;
+            font-size: 26px;
+            text-align: center;
+            margin-top: 15px;
+            font-family: Oswald,sans-serif;
+		
+		
+		}
+		
+		.animal_name{
+		    font-size: 16px;
+            margin-top: 15px;
+            color: #f7f1e3;
+            opacity: .9;
+            text-transform: uppercase;
+            font-family: Oswald,sans-serif;
+		}
+		
+		.deep{
+			 font-family: Roboto sans-serif;
+			 text-align: center ; 
+			 color: white; 
+			 font-size: 36px ;
+			 font-weight: 500;
+		
+		}
+		
+		.container {
+			  width: 500px;
+			  height: 500px;
+			  position: relative;
+			  display: flex;
+			  justify-content: center;
+			  align-items: center;
+			  border-radius: 1px;
+			  margin: 5px;
+			}
+
+		.wrapper {
+			  height: 100%;
+			  width: 100%;
+			  position: absolute;
+			  }
+
+		.wrapper div {
+			  height: 2px;
+			  width: 2px;
+			  border-radius: 50px;
+			  position: absolute;
+			  animation: animate 2s linear infinite;
+		}
+		div .dot {
+			  height: 2px;
+			  width: 2px;
+			  border-radius: 50px;
+			  position: absolute;
+			  top: 20%;
+			  right: 20%;  
+		}
+
+		.wrapper div:nth-child(1) {
+			  top: 20%;
+			  left: 20%;
+			  
+		}
+		.wrapper div:nth-child(2) {
+			  top: 60%;
+			  left: 80%;
+			  
+		}
+		.wrapper div:nth-child(3) {
+			  top: 40%;
+			  left: 40%;
+			  
+		}
+		.wrapper div:nth-child(4) {
+			  top: 66%;
+			  left: 30%;
+			
+		}
+		.wrapper div:nth-child(5) {
+			  top: 90%;
+			  left: 10%;
+			  
+		}
+		.wrapper div:nth-child(6) {
+			  top: 30%;
+			  left: 60%;
+			 
+		}
+		.wrapper div:nth-child(7) {
+			  top: 70%;
+			  left: 20%;
+			  
+		}
+		.wrapper div:nth-child(8) {
+			  top: 75%;
+			  left: 60%;
+			  
+		}
+		.wrapper div:nth-child(9) {
+			  top: 50%;
+			  left: 50%;
+			  
+		}
+		.wrapper div:nth-child(10) {
+			  top: 45%;
+			  left: 20%;
+			  
+		}
+		.wrapper div:nth-child(11) {
+			  top: 70%;
+			  left: 90%;
+			  
+		}
+		.wrapper div:nth-child(12) {
+			  top: 20%;
+			  left: 70%;
+			 
+		}
+		.wrapper div:nth-child(13) {
+			  top: 20%;
+			  left: 20%;
+			  
+		}
+		.wrapper div:nth-child(14) {
+			  top: 60%;
+			  left: 5%;
+			 
+		}
+		.wrapper div:nth-child(15) {
+			  top: 90%;
+			  left: 80%;
+			  
+		}
+		@keyframes animate {
+		  from {
+				background-color:white;
+				opacity: 0;
+		  }
+		  to {
+				background-color: white;
+				opacity: 1;
+		  }
+		}
+		
+		
+		.box {
+    --b: 10px;
+    --mask-size: 868px 229px;
+    --mask-position: 50% calc(50% - 114.5px);
+    --gradient: 
+        radial-gradient(491.23px at 50% calc(100% + 434px), #0000, #000, #0000) 0 calc(99% - 12px) / var(--mask-size) repeat-x,
+        radial-gradient(491.23px at 50% -434px, #0000, #000, #0000) var(--mask-position) / var(--mask-size) repeat-x;
+    -webkit-mask: var(--gradient);
+            mask: var(--gradient);
+    background: white;
+    height: 120px;
+	margin-top: 70px;
+}
+   

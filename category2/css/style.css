@@ -1,0 +1,228 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+.nav0 {
+    padding: 25px 0px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    z-index: 1;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.nav0 ul {
+    list-style: none;
+    float: right;
+    margin-right: 150px;
+}
+
+.nav0 ul li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.lists a {
+    display: block;
+    padding: 10px 10px;
+    text-decoration: none;
+    color: #008B8B;
+    font-size: 18px;
+    border-radius: 10%;
+    transition: text-shadow 0.3s, color 0.3s;
+    position: relative;
+}
+
+.last1 {
+    margin-right: 30px;
+}
+
+.last1 a {
+    display: block;
+    padding: 10px 10px;
+    text-decoration: none;
+    background-color: #008B8B;
+    color: white;
+    font-size: 18px;
+    border-radius: 10%;
+    position: relative;
+}
+
+.lists a:hover {
+    text-shadow: 2px 2px 2px #87CEFA;
+    color: #191970;
+}
+
+.logo img {
+    margin-top: 25px; 
+	margin-left: 150px;
+}
+  
+  .nav{
+    display: flex;
+    justify-content: center;
+	margin-top: 126px;
+  }
+ .nav .container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+
+  .nav .container .cat a{
+	text-decoration: none;
+	color: black;
+	font-size: 15.6px;
+    height: 80px;
+    min-width: max-content;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px solid #ccc;
+    padding: 0 8px;
+  }
+
+  .nav .container .cat:last-child{
+    border-right: none;
+  }
+
+  .nav .container .cat:hover{
+    cursor: pointer;
+    background-color: #0693e3;
+    color: white;
+  }
+  .main-1{
+    background: rgba( 239, 240, 240, 1 );
+    padding: 50px 25px 50px 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .main-1 .container{
+    max-width: 700px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .main-1 .container .header{
+    font-size: 26px;
+    color: rgba( 5, 140, 235, 1 );
+    text-align: center;
+  }
+  .main-1 .container .h-p{
+    font-size: 36px;
+    line-height: 40px;
+    text-align: center;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+  }
+  .main-1 .container .text{
+    font-size: 18px;
+    color: rgba( 5, 140, 235, 1 );
+    text-align: center;
+  }
+  .main-1 .container .text p{
+    margin-bottom: 1.5em;
+    line-height: 1.5;
+  }
+  .main-2 .images{
+    padding: 25px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .main-2 .images .container{
+    max-width: 1200px;
+    height: 100%;
+    display: grid;
+    grid-template-columns: minmax(0, 0.3333fr) minmax(0, 0.3333fr) minmax(0, 0.3333fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    grid-auto-flow: row;
+    margin: 0 auto;
+  }
+  .main-2 .images .container div{
+    padding: 25px;
+    min-height: 250px;
+    color: white;
+  }
+
+  .main-2 .images .container div:hover{
+    cursor: pointer;
+  }
+  
+  a{
+	  text-decoration: none;
+   }
+  
+  .end{
+        width: 100%;
+        background-image: url("footerBG.jpg");
+	    background-size: cover;
+	    background-position: center;
+		margin-top: 30px;
+    }
+    .end123{
+        display: flex;
+    }
+    .end ul li{
+        list-style-type: none;
+    }
+    .end1 ul li a, .end1 ul li i{
+        text-decoration: none;
+        color: white;
+        padding-bottom: 30px;
+    }
+	.footerLi p{
+        color: white;
+		font-family: "Georgia", Serif;
+    }
+	.footerLi1 p{
+		font-family: "Copperplate", Fantasy;
+        font-weight: bold;
+        font-size: 20px;
+		color: #87CEFA;
+	}
+	.footerSpecialLi p{
+		color: #40E0D0;
+		font-family: "Georgia", Serif;
+	}
+    .end1{
+        margin-top: 120px;
+		margin-left:50px;
+    }
+    .end2{
+        margin-top: 50px;
+		margin-left:50px;
+    }
+	.end4{
+        margin-top: 50px;
+    }
+    .end3{
+        margin-top: 50px;
+    }
+	.chartFooter ul li img{
+		width: 270px;
+		height: 150px;
+		margin-top: 30px;
+	}
+	.chartFooter p{
+		margin-top: 70px;
+	}
+    .lastIcons{
+        position: relative;
+        bottom: 30px;
+        margin-left: 38%;
+        margin-top: 70px;
+    }
+    .lastIcons i{
+        font-size: 30px;
+        padding: 5px;
+    }
+    .lI1, .lI2, .lI3, .lI4, .lI5{
+        color: #FAFAD2;
+    }

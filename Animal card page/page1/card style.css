@@ -1,0 +1,94 @@
+          .box {
+            width: 80%;
+            height: 90%;
+            background-size: 100% 100%;
+            margin-top:5%;
+			margin-left:11%;
+			position: relative;
+        }
+        .text-box {
+			position: absolute;
+            right: 0;
+            background-color: rgba(0, 0, 0, 0.5); 
+            padding: 5%;
+            color: white;
+            height: 100%;
+			width:30%;
+			box-sizing: border-box;
+        }
+		.category{
+			text-align:center;
+			color:black;
+			font-size:45px;
+			margin-top:180px;
+			
+		}
+		
+        h2 {
+            margin: 0;
+            font-size: 16px;
+			text-align: left;
+			margin-top: 35px
+        }
+        p {
+            margin: 5px 0;
+			text-align: left;
+        }
+		
+.nav0 {
+    padding: 25px 0px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    z-index: 1;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.nav0 ul {
+    list-style: none;
+    float: right;
+    margin-right: 150px;
+}
+
+.nav0 ul li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.lists a {
+    display: block;
+    padding: 10px 10px;
+    text-decoration: none;
+    color: #008B8B;
+    font-size: 18px;
+    border-radius: 10%;
+    transition: text-shadow 0.3s, color 0.3s;
+    position: relative;
+}
+
+.last1 {
+    margin-right: 30px;
+}
+
+.last1 a {
+    display: block;
+    padding: 10px 10px;
+    text-decoration: none;
+    background-color: #008B8B;
+    color: white;
+    font-size: 18px;
+    border-radius: 10%;
+    position: relative;
+}
+
+.lists a:hover {
+    text-shadow: 2px 2px 2px #87CEFA;
+    color: #191970;
+}
+
+.logo img {
+    margin-top: 25px; 
+	margin-left: 150px;
+}
+
